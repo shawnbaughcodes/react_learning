@@ -1,5 +1,6 @@
 import './card.css'
 import card from './card.html'
+import Modal from "./../Modal/Modal.js";
 
 class Card {
     constructor(){
@@ -9,8 +10,8 @@ class Card {
     }
     buttonEvent(){
         this.ele.getElementById("mainButton").addEventListener('click', e => {
-            console.log("I am clicking on the button");
-        })
+        document.body.appendChild(Modal("Awesome Title"));
+    })
     }
 }
 export default function(){
