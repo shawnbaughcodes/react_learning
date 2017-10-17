@@ -1,2 +1,8 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from "./app.js"
 import "./index.css";
-document.body.innerHTML = "<h1>Hello World</h1>";
+ReactDOM.render(
+  <App />,
+  document.getElementById('main')
+);
