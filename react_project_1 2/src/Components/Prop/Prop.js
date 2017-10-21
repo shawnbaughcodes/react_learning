@@ -9,7 +9,6 @@ class Prop extends React.Component{
             <div>
                 <h1>Hello, {this.name}</h1>
                 <h3>{this.props.user.age} years old</h3>
-                
             </div>
         )
     }
