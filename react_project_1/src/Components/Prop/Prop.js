@@ -12,6 +12,5 @@ class Prop extends React.Component{
             </div>
         )
     }
-    
 }
 export default Prop;

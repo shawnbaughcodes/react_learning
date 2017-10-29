@@ -7,7 +7,7 @@ class App extends React.Component{
         let users = ["eddy", "brendan", "goose", "eli", "marcos"];
         return (
             <div className="container">
-                <List users={users} />
+                <List users={users} loggedIn="goose" />
             </div>
         )
     }
