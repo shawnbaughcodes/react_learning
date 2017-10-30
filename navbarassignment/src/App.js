@@ -11,8 +11,8 @@ class App extends Component {
             <div className="App">
 
               <Route exact path="/" component={Home} />
-              <Route exact path="/params" component={Params} />
-              <Route exact path="/nested" component={Nested} />
+              <Route path="/params/:name" component={Params} />
+              <Route path="/nested" component={Nested} />
             </div>
         </BrowserRouter>
       );

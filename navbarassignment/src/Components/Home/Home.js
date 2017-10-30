@@ -16,10 +16,10 @@ class Home extends React.Component{
                         <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/params" component={Params}>Params</Link>
+                        <Link to="/params/Bansky">Params</Link>
                     </li>
                     <li>
-                        <Link to="/nested" component={Nested}>Nested</Link>
+                        <Link to="/nested">Nested</Link>
                     </li>
                 </ul>
             </div>
